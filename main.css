@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.6;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    padding-left: 80px;
+}
+
+#header-home {
+    background: url("img/asis.jpg") no-repeat center right/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+#header-home .header-content {
+    text-align: center;
+    padding-top: 20%;
+}
+
+#header-home .header-content h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+#header-home .header-content p {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+#especialidad {
+    text-align: center;
+}
+
+#especialidad h2 {
+    padding-top: 20px;
+    font-size: 2rem;
+}
+
+#especialidad p {
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+}
+
+#especialidad .tecns {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#especialidad .tecns p {
+    font-size: 1rem;
+}
+
+#especialidad .tecns .fas {
+    color: #00E68D;
+    padding-bottom: 5px;
+}
+
+#estadisticas {
+    text-align: center;
+}
+
+#estadisticas .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#estadisticas .stats li {
+    padding-top: 1rem;
+    line-height: 2;
+}
+
+#estadisticas .stats .stats-title {
+    font-size: 1.5rem;
+}
+
+#estadisticas .stats .stats-number {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#estadisticas .stats div:nth-child(odd) {
+    background: #f4f4f4;
+}
+
+#estadisticas .stats div:nth-child(even) {
+    background: #ccc;
+}
+
+#about {
+    text-align: center;
+}
+
+.about-info {
+    display: grid;
+    grid-template-areas: 'bioimage bio bio';
+    grid-gap: 1.2rem;
+}
+
+.about-info .bio-image {
+    grid-area: bioimage;
+}
+
+.about-info .bio {
+    grid-area: bio;
+    border-left: 3px solid #00E68D;
+    padding: 0.8rem;
+    background: #f3f3f3;
+}
+
+.about-info .bio h4 {
+    font-size: 2.5rem;
+}
+
+.about-info .bio p {
+    font-size: 1.3rem;
+}
+
+#about-b {
+    margin-top: 2rem;
+    background: #333;
+    color: #fff;
+}
+
+#about-b .progress {
+    overflow: hidden;
+    height: 20px;
+    background: #ccc;
+    border-radius: 5px;
+    margin-bottom: 0.6rem;
+}
+
+#about-b .progress div {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #00E68D;
+}
+
+#main-footer {
+    background: #333;
+    color: #fff;
+    height: 5rem;
+}
+
+#main-footer .contenido {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+}
+
+#main-footer .contenido .social .fab {
+    margin-right: 1rem;
+    border: 2px #00E68D solid;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0.5rem;
+    color: #00E68D;
+}
+
+
+/* Utilidades */
+
+.bottom-line {
+    height: 2px;
+    width: 3rem;
+    background: #00E68D;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+.lead {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+}
