@@ -198,6 +198,18 @@ img {
     color: #00E68D;
 }
 
+#main-footer .contenido .social .fab:hover {
+    margin-right: 1rem;
+    border: 2px #0aefff solid;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0.5rem;
+    color: #0aefff;
+}
+
 
 /* Utilidades */
 
