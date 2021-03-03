@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 15px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+
+.resultado {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+input {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+h3 {
+    padding: 15px;
+    color: #333333;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+input[type="submit"] {
+    padding: 10px 40px;
+    margin-top: 30px;
+    font-size: 15px;
+    display: block;
+    background: #00E68D;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+input[type="submit"]:hover {
+    background: #0aefff;
+}
+
+#resultado {
+    padding-top: 30px;
+    font-size: 2rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    color: #333333;
+}
